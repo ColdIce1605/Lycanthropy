@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "lycanthropy",
+  "version": "${version}",
+  "name": "Lycanthropy",
+  "description": "",
+  "authors": ["ColdIce"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/lycanthropy/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.coldice.lycanthropy.client.LycanthropyClient"
+    ],
+    "main": [
+      "net.coldice.lycanthropy.Lycanthropy"
+    ]
+  },
+  "mixins": [
+    "lycanthropy.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
